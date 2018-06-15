@@ -11,7 +11,7 @@ Part     Value             Device                               Package         
 C2       4.7uF/25V         CAP_SMD_C0805                        C0805                         OKA-Cap-Resistor    1 
 C3       4.7uF/25V         CAP_SMD_C0805                        C0805                         OKA-Cap-Resistor    1
 D1                         DIODE-DO-214AC                       DO-214AC                      diode               1 -> Otional diode for inductive loads
-IC1      MCP1703A          MCP1703CB                            SOT23                         linear              1
+IC1      3.3V              MCP1703A 3.3V regulator              SOT23                         linear              1
 IC2      SL353             SL353                                SOT23                         OKA-IC              1 -> Otional hall sensor
 LED1                       LED3MM                               LED3MM                        adafruit            1
 Q1       P-MOSFET SI4459AD MOSFET-PCHANNEL                      SO08                          User-Submitted      1

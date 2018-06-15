@@ -1,11 +1,11 @@
 # ATTINY Power switch
 This programmable MOSFET high side on/off power switch is based on the ATTINY85 chip and is intended for battery powered devices.
 
-### Lipo cells 1-3
+- 1-3 Lipo cells 
 - Max operating voltage 16.0V (18V never exceed)
 - Max current: needs to be tested, but up to 5A should be very safe. See MOSFET data sheet for info.
-- Current draw in "off" mode with BOD disabled: 3uA
-- Current draw in "off" mode with BOD enabled: 20uA
+- Power consumption in "off" mode with BOD disabled: 3uA
+- Power consumption in "off" mode with BOD enabled: 20uA
 
 ### Configurable features in config.h file:
 - LED behaviour

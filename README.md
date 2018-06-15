@@ -1,25 +1,25 @@
 # ATTINY Power switch
 This programmable MOSFET high side on/off power switch is based on the ATTINY85 chip and is intended for battery powered devices.
 
-###Lipo cells 1-3
--Max operating voltage 16.0V (18V never exceed)
--Max current: needs to be tested, but up to 5A should be very safe. See MOSFET data sheet for info.
--Current draw in "off" mode with BOD disabled: 3uA
--Current draw in "off" mode with BOD enabled: 20uA
+### Lipo cells 1-3
+- Max operating voltage 16.0V (18V never exceed)
+- Max current: needs to be tested, but up to 5A should be very safe. See MOSFET data sheet for info.
+- Current draw in "off" mode with BOD disabled: 3uA
+- Current draw in "off" mode with BOD enabled: 20uA
 
-###Configurable features in config.h file:
--LED behaviour
--Low battery voltage threshold, LED warning
--Very low battery voltage threshold, power off
--Button press and hold for a set time for power on
--Button press and hold for set time for power off
--Timer, delayed power off
--Timer, after power has been on for set time, switch power off
--PB3 pin signal (to for example a Raspberry Pi) initiating controlled shut-down, then switch the power off after a set time delay
-- +lots of other possibilities...
+### Configurable features in config.h file:
+- LED behaviour
+- Low battery voltage threshold, LED warning
+- Very low battery voltage threshold, power off
+- Button press and hold for a set time for power on
+- Button press and hold for set time for power off
+- Timer, delayed power off
+- Timer, after power has been on for set time, switch power off
+- PB3 pin signal (to for example a Raspberry Pi) initiating controlled shut-down, then switch the power off after a set time delay
+-  +lots of other possibilities...
 
-###Battery/voltage features using button switch:
--Auto calibrating internal voltmeter
--Auto set number of cells
+### Battery/voltage features using button switch:
+- Auto calibrating internal voltmeter
+- Auto set number of cells
 
 

@@ -1,7 +1,7 @@
 # ATTINY Power switch
 This programmable MOSFET high side on/off power switch is based on the ATTINY85 chip and is intended for battery powered devices.
 
-! [ATTINY-Power-switch] (https://github.com/olkal/ATTINY-programmable-Power-switch/blob/master/Documentation/IMG_20180429_123707_small.jpg)
+![ATTINY-Power-switch](https://github.com/olkal/ATTINY-programmable-Power-switch/blob/master/Documentation/IMG_20180429_123707_small.jpg?raw=true)
 
 - 1-3 Lipo cells 
 - Max operating voltage 16.0V (18V never exceed)
